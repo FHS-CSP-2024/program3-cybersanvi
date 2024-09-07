@@ -11,23 +11,24 @@
 #  
 # I am looking for a job with a salary of 2000-3000 dollars per month
 
-name = "Tim Tester"
-age = 20
-skill1 = "python"
-level1 = "beginner"
-skill2 = "java"
-level2 = "veteran"
-skill3 = "programming"
-level3 = "semiprofessional"
-lower = 2000
-upper = 3000
 
-print("my name is ", name, " , I am ", age, "years old")
-print("my skills are")
-print("- ", skill1, " (", level1, ")")
-print("- ", skill2, " (", level2, ")")
-print("- ", skill3, " (", level3, " )")
-print("I am looking for a job with a salary of", lower, "-", upper, "dollars per month")
+name = input("Please enter your name: ")
+age = input("Please enter your age: ")
+skill1 = input("PLease name one of your skills: ")
+level1 = input("Please choose how talented you are at this skill (beginner, semiprofessional, expert, veteran): ")
+skill2 = input("PLease name another one of your skills: ")
+level2 = input("Please choose how talented you are at this skill (beginner, semiprofessional, expert, veteran): ")
+skill3 = input("PLease name a third skill of yours: ")
+level3 = input("Please choose how talented you are at this skill (beginner, semiprofessional, expert, veteran): ")
+lower = input("Name your minimum salary for a job: ")
+upper = input("Name your maximum salary for a job: ")
+
+print("My name is",name, " , I am ", age, "years old.")
+print("My skills are")
+print("- ", skill1, "(",level1,")")
+print("- ", skill2, "(",level2,")")
+print("- ", skill3, "(",level3," )")
+print("I am looking for a job with a salary of", lower, "-", upper, "dollars per month.")
 
 
 
@@ -51,3 +52,7 @@ print("I am looking for a job with a salary of", lower, "-", upper, "dollars per
 x = input("X val: ")
 y = input("Y val: ")
 
+print(x, "+", y, str("="), int(x) + int(y))
+print(x, "-", y, str("="), int(x) - int(y))
+print(x, "*", y, str("="), int(x) * int(y))
+print(x, "/", y, str("="), int(x) / int(y))
