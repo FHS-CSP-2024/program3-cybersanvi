@@ -14,7 +14,7 @@
 
 name = input("Please enter your name: ")
 age = input("Please enter your age: ")
-skill1 = input("PLease name one of your skills: ")
+skill1 = input("Please name one of your skills: ")
 level1 = input("Please choose how talented you are at this skill (beginner, semiprofessional, expert, veteran): ")
 skill2 = input("PLease name another one of your skills: ")
 level2 = input("Please choose how talented you are at this skill (beginner, semiprofessional, expert, veteran): ")
@@ -23,12 +23,12 @@ level3 = input("Please choose how talented you are at this skill (beginner, semi
 lower = input("Name your minimum salary for a job: ")
 upper = input("Name your maximum salary for a job: ")
 
-print("My name is",name, " , I am ", age, "years old.")
-print("My skills are")
-print("- ", skill1, "(",level1,")")
-print("- ", skill2, "(",level2,")")
-print("- ", skill3, "(",level3," )")
-print("I am looking for a job with a salary of", lower, "-", upper, "dollars per month.")
+print("\nmy name is " + name + ", I am " + age + " years old\n")
+print("my skills are")
+print(" - " + skill1 + " (" + level1 + ")")
+print(" - " + skill2 + " ("+ level2 + ")")
+print(" - " + skill3 + " (" + level3 + ")\n")
+print("I am looking for a job with a salary of " + lower + "-" + upper + " dollars per month")
 
 
 
