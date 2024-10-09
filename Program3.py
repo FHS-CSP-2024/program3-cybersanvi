@@ -11,7 +11,6 @@
 #  
 # I am looking for a job with a salary of 2000-3000 dollars per month
 
-
 name = input("Please enter your name: ")
 age = input("Please enter your age: ")
 skill1 = input("Please name one of your skills: ")
